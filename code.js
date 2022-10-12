@@ -9,7 +9,7 @@ var array = str.split(",");
 
 // array.splice(0, 1, "11"); // delete from array 1 and add 11 instead
 
-array.splice(1, 0, "11", "33"); // no delete from array nothing, add 11
+array.splice(1, 0, "11", "33"); // no delete from array nothing, add 11 and 33
 
 var newArray = array.concat([1, 2]);
 
